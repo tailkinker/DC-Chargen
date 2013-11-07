@@ -1,6 +1,124 @@
 Acid Mastery
-,,,,,,FALSE
+,,,,,
 Alert
-,,,,,,FALSE
+,,,,,
 Ambidexterity
-,,,,,,TRUE
+,1,,,,
+Arcane Dabbler
+,6,,4,9,
+Blind Fighting
+,,,,,,
+Cleave
+,,,1,13,
+Cold Mastery
+,,,,,,
+Combat Caster
+,6,,5,13,
+Demonic Heritage
+,6,,6,9,
+Diehard
+,,,3,13,
+Energy Resistance (Acid)
+,11,,,,
+Energy Resistance (Cold)
+,11,,,,
+Energy Resistance (Fire)
+,11,,,,
+Energy Resistance (Force)
+,11,,,,
+Energy Resistance (Lightning)
+,11,,,,
+Energy Resistance (Necrotic)
+,11,,,,
+Energy Resistance (Psychic)
+,11,,,,
+Energy Resistance (Radiant)
+,11,,,,
+Expert Healer
+Cleric,,,5,13,
+Fast Dodge
+,,,2,11,
+Fire Mastery
+,,,,,
+Great Cleave
+,,,3,15,Improved Cleave
+Greater Energy Resistance (Acid)
+,21,,,,Energy Resistance (Acid)
+Greater Energy Resistance (Cold)
+,21,,,,Energy Resistance (Cold) 
+Greater Energy Resistance (Fire)
+,21,,,,Energy Resistance (Fire)
+Greater Energy Resistance (Force)
+,21,,,,Energy Resistance (Force)
+Greater Energy Resistance (Lightning)
+,21,,,,Energy Resistance (Lightning)
+Greater Energy Resistance (Necrotic)
+,21,,,,Energy Resistance (Necrotic)
+Greater Energy Resistance (Psychic)
+,21,,,,Energy Resistance (Psychic)
+Greater Energy Resistance (Radiant)
+,21,,,,Energy Resistance (Radiant)
+Improved Cleave
+,,,3,13,Cleave
+Improved Critical
+,16,,,,
+Improved Initiative
+,,,,,
+Iron Skin
+,16,,,,
+Iron Will
+,,,5,13,
+Language Training
+,,,4,11,
+Large And In Charge
+,,,1,13,
+Lay Priest
+,6,,5,13,
+Lightning Mastery
+,,,,,
+Lightning Reflexes
+,,,2,13,
+Lunge
+,,,,,
+Mobility
+,,,2,13,Fast Dodge
+Mounted Combat
+,,Nature,,,
+Necrotic Mastery
+,,,,,
+Psychic Mastery
+,,,,,
+Quick Draw
+,6,,,,
+Radiant Mastery
+,,,,,
+Rapid Reload
+,,,,,
+Ritual Caster
+,,,,,
+Shot On The Run
+,6,,2,15,Mobility
+Spell Mastery
+,,,,,
+Spring Attack
+,6,,2,15,Mobility
+Swift
+,,,2,11,
+Tough As Nails
+,,,3,13,
+Toughness
+,,,3,11,
+Two-Weapon Defense
+,,,2,13,
+Two-Weapon Fighting
+,,,2,15,
+Weapon Finesse (Dexterity)
+,,,2,13,
+Weapon Finesse (Constitution)
+,,,3,13,
+Weapon Finesse (Intelligence)
+,,,4,13,
+Weapon Finesse (Wisdom)
+,,,5,13,
+Weapon Finesse (Charisma)
+,,,6,13,

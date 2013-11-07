@@ -25,13 +25,12 @@ while (<INF>) {
   $req[3] = '0' if ($req[3]=='');
   $req[4] = '0' if ($req[4]=='');
   
-  print "    ( Name: '$name';\n";
+  print "    ( FeatName: '$name';\n";
   print "      ClassNeed: '$req[0]';\n";
   print "      LevelNeed: $req[1];\n";
   print "      SkillNeed: '$req[2]';\n";
-  print "      AttrNeed: \[$req[3], $req[4]\];\n";  
-  print "      FeatNeed: '$req[5]';\n";
-  print "      Initial: $req[6]\n";
+  print "      AttrNeed: ($req[3], $req[4]);\n";  
+  print "      FeatNeed: '$req[5]'\n";
   if (eof(INF)) {
     print "    )\n";
   } else {
