@@ -1,0 +1,255 @@
+Anything not bracketed in <Race>...<Desc>...<End> is ignored.
+
+<Race>
+Cat-Folk
+Dexterity +2
+Charisma +2
+Wisdom-2
+Size Small
+Acrobatics +3
+Diplomacy +3
+Trait:natural attacks
+Feat:Alert
+<Desc>
+Willowy and sinuous, the Cat-Folk are tricksters and pranksters. They are surprisingly strong for their size, but quite short-sighted.  And they find the proverb, "Curiosity killed the cat", highly offensive. 
+<End>
+
+<Race>
+Dwarf
+Constitution +2
+Wisdom +2
+Charisma -1
+Size Small
+Weapon: Heavy FlAil
+Weapon: Light Flail
+Trait:Extra Carry
+<desc>
+Short, tough, and stubborn, Dwarves make
+excellent warriors and priests. They are steady
+and dependable.
+<end>
+
+<Race>
+Elf
+Dexterity+2
+Intelligence+2
+Constitution-2
+Size Medium
+Weapon:Rapier
+Weapon:Bow
+Nature+3
+Stealth+3
+Trait:Darkvision
+<desc>
+Viewed as shiftless daydreamers by some,
+and as enigmatic spirits by others, the Elves live
+partially in this realm, and partially in Arcadia,
+homeland of the Fey. Or at least, that?s what
+they claim.
+<end>
+
+<Race>
+Gnome
+Dexterity+2
+Charisma+2
+Strength -2
+Size Small
+Weapon:Warhammer
+Weapon:Short Sword
+Arcana +3
+Sleight of Hand +3
+Trait:Lucky
+<desc>
+These cheerful people 
+love complexity and magic. They are very 
+likeable, and enjoy company, even that of the 
+larger Races.
+<end>
+
+<Race>
+Half-Giant
+Strength +6
+Constitution +2
+Wisdom +2
+Dexterity -2
+Size Large
+Endurance +3
+Intimidate +3
+<DESC>
+Standing an average of nine feet tall, Half- 
+Giants have a reputation for stupidity. While 
+they are certainly massive, and rather clumsy, 
+they are just as intelligent as Humans, and rather 
+more strong-willed. Nonetheless, they 
+frequently find themselves shunted into martial 
+roles, because they excel at such. 
+<end>
+
+<Race>
+Half-Ork
+Strength +2
+Constitution +2
+Intelligence -4
+Size Medium
+Trait: Bonus Weapon
+Athletics +3
+Intimidate +3
+Feat:  Toughness
+<Desc>
+Though no taller than Humans, the Half-
+Orks are bulky, powerful, and very stupid.
+Being of demonic heritage, they occasionally
+become Sorcerers, but typically end up
+specializing in one of the martial Classes.
+<end>
+
+<Race>
+Human
+Size Medium
+Trait:  Bonus Skill
+Trait:  Bonus Feat
+Trait:  Bonus Attribute
+<desc>
+Humans are the most flexible of the
+Races, able to perform well in any field.
+However, their flexibility comes at a cost:
+Humans cannot specialize quite as well as other
+Races.
+<end>
+
+<Race>
+Beast, Tiny
+Monster
+Dexterity +4
+Wisdom +2
+Strength -4
+Intelligence -2
+Size Tiny
+Trait: Natural Attacks
+Feat: Swift
+Stealth +3
+Survival +3
+<DESC>
+Suitable for two- to three-foot-long animals.
+<END>
+
+<Race>
+Beast, Small
+Monster
+Dexterity +2
+Wisdom +2
+Intelligence -2
+Size Small
+Trait: Natural Attacks
+Feat: Swift
+Stealth +3
+Survival +3
+<DESC>
+Suitable for three- to five-foot-long animals.
+<END>
+
+<Race>
+Beast, Medium
+Constitution +2
+Monster
+Wisdom +2
+Intelligence -2
+Trait: Natural Attacks
+Stealth +3
+Survival +3
+<DESC>
+Suitable for six- to seven-foot-long animals.
+<END>
+
+<Race>
+Beast, Large
+Constitution +4
+Strength +4
+Wisdom +2
+Intelligence -2
+Monster
+Dexterity -2
+Size Large
+Stealth +3
+Survival +3
+Trait: Natural Attacks
+<DESC>
+Suitable for animals from eight to ten feet in length.
+<END>
+
+<Race>
+Beast, Huge
+Strength +8
+Constitution +6
+Wisdom +2
+Dexterity -4
+Monster
+Intelligence -2
+Size Huge
+Trait: Natural Attacks
+Stealth +3
+Survival +3
+<DESC>
+Suitable for animals of eleven feet in length or longer.
+<END>
+
+<Race>
+Construct, Tiny
+Strength -4
+Dexterity +2
+Constitution +2
+Size Tiny
+Monster
+Feat:Toughness
+<DESC>
+Suitable for an undead or construct weighing about thirty pounds.
+<END>
+
+<Race>
+Construct, Small
+Constitution +2
+Size Small
+Feat:Toughness
+Feat:Iron Skin
+Monster
+<DESC>
+Suitable for an undead or construct weighing about sixty pounds.
+<END>
+
+<Race>
+Construct, Medium
+Constitution +2
+Monster
+Size Medium
+Feat:Toughness
+Feat:Iron Skin
+<DESC>
+Suitable for an undead or construct weighing about 150 pounds.
+<END>
+
+<Race>
+Construct, Large
+Strength +4
+Monster
+Dexterity -2
+Constitution +4
+Size Large
+Feat:Iron Skin
+<DESC>
+Suitable for an undead or construct weighing about half a tonne.
+<END>
+
+<Race>
+Construct, Huge
+Strength +8
+Dexterity -4
+Monster
+Constitution +6
+Size Huge
+Feat:Toughness
+Feat:Iron Skin
+<DESC>
+Suitable for an undead or construct weighing around a tonne.
+<END>
+
+<End File>

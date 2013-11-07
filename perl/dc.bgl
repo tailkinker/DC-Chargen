@@ -1,0 +1,1748 @@
+Arming Sword
+The stereotypical weapon of the knight in shining armour.
+0 6000 40 36 1 10 7
+0 0 0 
+3 2 11 2 1 
+5 1 11 3 1 
+-1 0 11 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 2 8 2 1 
+6 1 8 3 1 
+-1 0 8 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Banded Armour
+Multiple thin steel plates attached to a cloth gambeson, not overlapping, but considerably longer than those found in a Bisby jack.  The overall appearance is similar to an armadillo, and so this armour is often mocked.
+3 120000 1120 0 4 3 1
+9 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Bastard Sword
+Essentially a broadsword with an extra-long hilt, the bastard sword is easier to use in two hands, but can still be used in one.
+0 6000 56 42 1 11 7
+0 0 0 
+2 0 14 2 2 
+6 1 14 3 2 
+-1 0 14 0 2 
+-1 0 10 2 1 
+-1 1 10 2 1 
+-1 0 10 0 1 
+3 0 10 2 2 
+8 1 10 3 2 
+-1 0 10 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Battle Axe
+Considerably better balanced than most axes, the battle axe is designed with two-handed use in mind.
+0 3000 64 42 0 10 0
+0 0 0 
+-1 0 14 0 2 
+7 1 14 4 2 
+-1 0 14 0 2 
+-1 0 9 0 1 
+6 1 9 4 1 
+-1 0 9 0 1 
+-1 0 9 0 2 
+9 1 9 5 2 
+-1 0 9 0 2 
+-1 0 7 0 1 
+9 1 7 4 1 
+-1 0 7 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Bec de Corbin
+A hammer on a pole, backed with a wicked spike and a spear-head.  Lots of options for causing damage.
+0 5500 80 84 1 17 4
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 2 17 2 2 
+5 0 17 4 2 
+8 2 17 5 2 
+-1 2 10 2 2 
+-1 0 10 6 2 
+-1 2 10 9 2 
+7 2 13 2 2 
+9 0 13 4 2 
+13 2 13 6 2 
+7 2 13 2 1 
+7 0 13 4 1 
+10 2 13 5 1 
+Bill
+A forerunner of the halberd, the bill is not so well balanced, nor as endowed with pointy things.  It is typically a curved blade, similar to the glaive, with a spear-head attached.
+0 1500 64 72 1 15 4
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 2 14 2 2 
+6 1 14 3 2 
+-1 0 14 0 2 
+-1 2 14 2 2 
+-1 1 14 4 2 
+-1 0 14 0 2 
+6 2 11 2 2 
+10 1 11 4 2 
+-1 0 11 0 2 
+6 2 11 2 1 
+8 1 11 3 1 
+-1 0 11 0 1 
+Bisby Jack
+A leather jack with metal plates sewn into pockets in the lining.  They do not overlap, but the jack uses a heavier leather to compensate.
+3 75000 880 0 3 4 1
+7 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Boiled Leather
+By boiling formed pieces of leather in oil, they can be rendered stiff.  This makes it possible to make a low-cost suit of armour with reasonable protection and almost no loss of mobility.
+3 2000 320 0 0 7 0
+2 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Bone Armour
+Essentially studded leather, but the "studs" are beads of bone.  Surprisingly good protection, considering its low technology base, but rather expensive to make.
+3 19000 960 0 3 4 1
+5 1 1 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Brigandine
+Thin steel plates attached at select points on a leather jack.  Decent mobility and much better protection than any other light armour, but also considerably more expensive.
+3 55000 800 0 2 5 0
+6 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Broadsword
+A good, well-rounded, but uninspired weapon.  The broadsword does not typically have a sharpened tip, which is why its thrust damage is poor.
+0 3500 32 36 1 10 7
+0 0 0 
+2 0 10 2 1 
+4 1 10 3 1 
+-1 0 10 0 1 
+-1 0 7 2 1 
+-1 1 7 2 1 
+-1 0 7 0 1 
+2 0 7 2 1 
+6 1 7 3 1 
+-1 0 7 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Buckler
+A small shield, held in the fist.  It is cheap, but provides limited protection.
+4 1500 32 1 2 0 1
+0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Club
+A length of wood, in about the right shape to swing.
+0 251 32 24 0 10 3
+0 0 0 
+-1 0 10 0 1 
+4 0 10 3 1 
+-1 0 10 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 7 0 1 
+5 0 7 3 1 
+-1 0 7 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Composite Long Bow
+Five feet long, recurved, and composed of a laminate of wood and bone, this weapon requires great strength, but delivers remarkable damage.
+1 40000 112 60 0 1 1
+20 50 95 
+9 2 13 3 0 
+11 2 18 3 0 
+13 2 22 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Cord Armour
+This strange armour involves sewing rope to a leather jack.  It is quite bulky, but also quite cheap.
+3 1000 400 0 1 6 0
+2 0 1 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Dirk
+A tiny weapon, usually carried for concealability.
+0 147 8 12 0 10 1
+0 0 0 
+1 2 5 1 1 
+-1 0 5 0 1 
+-1 0 5 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Eight-In-One Maille
+So-called because each ring in its mesh connects to eight other rings.  Heavy and less flexible than traditional "four-in-one" maille, but it provides excellent protection.
+3 40000 1120 0 5 0 2
+9 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Falchion
+A low-quality, poorly-balanced weapon, the falchion has a lot of impact, but it is somewhat sluggish.
+0 2000 64 36 1 10 7
+0 0 0 
+2 0 14 2 1 
+8 1 14 5 1 
+-1 0 14 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+3 0 9 2 1 
+10 1 9 5 1 
+-1 0 9 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Field Plate
+A full suit of interlocking plates, surprisingly mobile for its mass.  Very few armourers are up to the challenge of making this stuff.
+3 180000 1360 0 5 1 2
+11 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Footman's Axe
+A fairly large and heavy axe, poorly balanced.  It is typically used two-handed, unless the wielder is quite strong.
+0 1000 48 36 0 10 0
+0 0 0 
+-1 0 12 0 1 
+7 1 12 4 1 
+-1 0 12 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 8 0 1 
+8 1 8 4 1 
+-1 0 8 0 1 
+-1 0 6 0 1 
+8 1 6 4 1 
+-1 0 6 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Full Plate Armour
+The next best thing to being invulnerable.  Mobility is sacrificed for protection, but the complex articulation of the suit\[em]which accounts for more than 60% of the price\[em]is required to allow this suit to move \fIat all\fR.
+3 250000 1680 0 7 0 2
+13 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Gambeson
+Normally worn as the base layer for heavier armour, the gambeson can be worked into actual armour.  However, it's heavy, hot and itchy.
+3 250 240 0 0 7 0
+1 0 1 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Giant Club
+Rip up a small tree, trim it to fit, and you have a huge club.  This sort of weapon is favoured by the larger, stupider humanoids.
+0 626 80 60 0 15 3
+0 0 0 
+-1 0 23 0 2 
+7 0 23 5 2 
+-1 0 23 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 15 0 2 
+9 0 15 5 2 
+-1 0 15 0 2 
+-1 0 12 0 2 
+9 0 12 5 2 
+-1 0 12 0 2 
+-1 0 12 0 1 
+7 0 12 4 1 
+-1 0 12 0 1 
+Giant Flail
+Only the largest of humanoids carry this monster around.
+0 1500 80 48 2 15 2
+0 0 0 
+-1 0 23 0 2 
+10 0 23 6 2 
+-1 0 23 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 15 0 2 
+13 0 15 6 2 
+-1 0 15 0 2 
+-1 0 12 0 1 
+13 0 12 6 1 
+-1 0 12 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Giant Shield
+Used primarily by Stone Giants, this massive shield is pretty much unusable by smaller humanoids.
+4 45000 960 10 14 0 1
+0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Giant Sword
+Intended for very large humanoids only.  Of course, it is possible that a more normal-scale person could wield this sword in two hands.
+0 21000 192 72 1 14 7
+0 0 0 
+7 2 33 3 2 
+12 1 33 6 2 
+10 0 33 6 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+9 2 22 3 2 
+16 1 22 6 2 
+12 0 22 6 2 
+11 2 17 3 2 
+16 1 17 6 2 
+12 0 17 6 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Gladius
+A fairly short, but surprisingly heavy, sword, favoured by (as the name would suggest) gladiators.
+0 3500 48 30 1 10 7
+0 0 0 
+3 2 12 2 1 
+6 1 12 3 1 
+-1 0 12 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 2 8 2 1 
+7 1 8 3 1 
+-1 0 8 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Glaive
+A long, curved blade on the end of a pole, this weapon is better balanced than a poleaxe, but still not overly flexible.
+0 3000 64 78 0 14 4
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 10 0 2 
+9 1 10 4 2 
+-1 0 10 0 2 
+-1 0 10 0 1 
+7 1 10 3 1 
+-1 0 10 0 1 
+Great Axe
+Verging on polearm status, the Great Axe is a large, cumbersome and very effective weapon.
+0 2000 96 60 0 11 0
+0 0 0 
+-1 0 19 0 2 
+9 1 19 6 2 
+-1 0 19 0 2 
+-1 0 13 0 2 
+7 1 13 5 2 
+-1 0 13 0 2 
+-1 0 13 0 2 
+12 1 13 6 2 
+-1 0 13 0 2 
+-1 0 10 0 2 
+12 1 10 6 2 
+-1 0 10 0 2 
+-1 0 10 0 1 
+9 1 10 5 1 
+-1 0 10 0 1 
+Great Bow
+Requiring astonishing strength to use effectively, this six-foot composite recurved bow can punch through the heaviest of armours with absurd ease.
+1 58000 160 72 0 1 1
+30 75 135 
+10 2 14 3 0 
+12 2 19 3 0 
+14 2 24 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Greatsword
+Large and in charge.  Like the Broadsword, this weapon typically did not have a sharpened tip.  However, it typically had a \fIricasso\fR\[em]a section of blade, close to the quillons, that was left unsharpened.  This allows the wielder to employ the wide grip.
+0 7000 64 60 1 12 7
+0 0 0 
+2 0 17 2 2 
+6 1 17 4 2 
+-1 0 17 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+3 0 11 2 2 
+8 1 11 4 2 
+-1 0 11 0 2 
+4 0 9 2 2 
+8 1 9 3 2 
+-1 0 9 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Halberd
+The Swiss Army Knife of polearms.  Unsurprisingly, it was invented by the Swiss.  The heavy axe blade is backed by a spike, and a spearhead for thrusting rounds out its impressive arsenal.
+0 15000 80 72 1 15 4
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 2 15 2 2 
+6 1 15 3 2 
+8 2 15 5 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+7 2 12 2 2 
+10 1 12 4 2 
+12 2 12 6 2 
+7 2 12 2 1 
+8 1 12 3 1 
+10 2 12 5 1 
+Half-Plate
+Similar to maille and plate, except that the plates are better articulated and cover more of the body.
+3 150000 1280 0 5 2 2
+10 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Hand Axe
+A farmer's tool pressed into service as a weapon.
+0 334 32 24 0 9 0
+0 0 0 
+-1 0 9 2 1 
+5 1 9 3 1 
+-1 0 9 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 6 2 1 
+6 1 6 3 1 
+-1 0 6 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Heavy Arbalest
+Also called a siege crossbow, this weapon is frequently used to pick off enemy commanders from across entire battlefields.  Bolts for this monster cost 5sp each, or 5gp for a dozen.
+2 160000 432 60 0 1 1
+380 4 5 
+18 2 19 4 0 
+6 2 10 3 0 
+7 2 12 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Heavy Club
+A longer, heavier piece of wood, miserably balanced.
+0 375 48 36 0 10 3
+0 0 0 
+-1 0 12 0 1 
+6 0 12 5 1 
+-1 0 12 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 8 0 1 
+7 0 8 5 1 
+-1 0 8 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Heavy Crossbow
+Crushing power and good range make this a perennial favourite.  Bolts cost 3sp each, or 3gp for a dozen.
+2 11000 120 36 0 0 0
+30 4 5 
+10 2 10 4 0 
+6 2 10 3 0 
+7 2 12 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Heavy Flail
+A large ball of steel and a handle, with a length of chain between.  Thoroughly unpleasant.
+0 750 48 36 2 10 2
+0 0 0 
+-1 0 12 0 1 
+8 0 12 6 1 
+-1 0 12 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 8 0 1 
+10 0 8 6 1 
+-1 0 8 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Heavy Mace
+A mass of flanges at the end of a wooden rod.  The heavy mace is noted for its ability to penetrate armour.
+0 750 48 36 0 10 3
+0 0 0 
+-1 0 12 0 1 
+5 0 12 4 1 
+-1 0 12 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 8 0 1 
+7 0 8 4 1 
+-1 0 8 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Hide Armour
+Multiple layers of soft leather.  This is the best protection that many primitive armourers can create.
+3 3950 800 0 3 3 1
+4 0 1 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Horse Bow
+A three-foot recurved composite bow, this weapon packs remarkable punch in a small package.
+1 16000 40 36 0 1 1
+5 15 30 
+7 2 10 3 0 
+9 2 14 3 0 
+10 2 17 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Horseman's Axe
+Somewhat longer and lighter than other axes, the horseman's axe is also better balanced.  It is designed with one-handed use in mind, but is quite flexible.
+0 334 32 48 0 10 0
+0 0 0 
+-1 0 10 0 2 
+6 1 10 4 2 
+-1 0 10 0 2 
+-1 0 7 0 1 
+4 1 7 3 1 
+-1 0 7 0 1 
+-1 0 7 0 2 
+7 1 7 4 2 
+-1 0 7 0 2 
+-1 0 5 0 1 
+7 1 5 4 1 
+-1 0 5 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Javelin
+Primarily intended to be hurled, the javelin can also be used in hand if needed.
+0 293 32 36 0 10 5
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+3 2 7 2 1 
+-1 0 7 0 1 
+-1 0 7 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Kite Shield
+The pentagonal shape of this shield allows the user to cover himself effectively with the corners, while making the shield itself smaller overall.  This is a very efficient design.
+4 9000 288 4 3 0 0
+0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Lamellar
+Segmented pieces of boiled leather, carefully arranged on a soft leather jack, give more protection than the boiled leather cuirass with an equal amount of flexibility.
+3 14000 400 0 0 7 0
+3 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Large Round Shield
+Two and a half feet in diameter, and quite heavy, but this shield provides excellent cover.
+4 6000 192 3 2 0 0
+0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Light Arbalest
+With two-foot staves of laminated steel and wood, the arbalest requires considerable strength to use, but delivers excellent damage at very long ranges.  Bolts cost 4sp each, or 4gp for a dozen.
+2 26000 72 24 0 1 1
+60 2 3 
+12 2 11 4 0 
+5 2 8 3 0 
+6 2 10 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Light Crossbow
+Intended for small people, this wooden crossbow is powerful, but short ranged.  Bolts cost 2sp each, or 2gp for a dozen.
+2 5000 56 24 0 0 0
+15 2 3 
+8 2 8 4 0 
+5 2 8 3 0 
+6 2 10 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Light Flail
+Typically carried by smaller people, but this can also be an improvised weapon.
+0 251 32 24 2 10 2
+0 0 0 
+-1 0 10 0 1 
+6 0 10 5 1 
+-1 0 10 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 7 0 1 
+7 0 7 4 1 
+-1 0 7 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Light Mace
+Fairly light and well balanced, the light mace is a quick weapon in the right hands.
+0 1500 32 36 0 10 3
+0 0 0 
+-1 0 10 0 1 
+4 0 10 3 1 
+-1 0 10 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 7 0 1 
+5 0 7 3 1 
+-1 0 7 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Long Bow
+Intended specifically for combat, this five-foot recurved wooden weapon requires considerable strength to attain maximum range.
+1 15000 80 60 0 1 0
+10 30 50 
+8 2 11 3 0 
+10 2 15 3 0 
+11 2 19 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Longsword
+An all-around well-designed piece of weaponry.  The longsword allows a wide variety of grips, though only a very tall person could use it in one hand.  However, as with the greatsword, the longsword has a \fIricasso\fR\[em]an unsharpened section of blade, about eight inches in length, just above the quillons, which allows the wielder to use the wide grip.
+0 14000 48 54 1 13 7
+0 0 0 
+3 2 16 2 2 
+5 1 16 2 2 
+-1 0 16 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 2 11 2 2 
+6 1 11 2 2 
+-1 0 11 0 2 
+5 2 8 2 1 
+6 1 8 2 1 
+-1 0 8 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Lorica Segmentata
+A Roman segmented plate armour.  Due to its primitive nature, this armour is not as flexible as heavy plate armours, and as a result, fewer and thinner plates are used to reduce the mass.
+3 18000 800 0 3 3 1
+6 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Maille
+The traditional chain hauberk.  Good protection, but heavy and expensive.
+3 18000 800 0 3 3 1
+6 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Maille-and-Plate
+A maille hauberk with several plates attached.  Excellent protection, but bulky and inflexible.
+3 49000 1280 0 7 0 2
+10 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Maul
+A warhammer writ large, this massive hammer carries a wicked spike on the back end.
+0 4000 96 60 1 16 3
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 18 0 2 
+6 0 18 4 2 
+9 2 18 5 2 
+-1 0 11 0 2 
+-1 0 11 8 2 
+-1 2 11 11 2 
+-1 0 14 0 2 
+9 0 14 4 2 
+14 2 14 6 2 
+-1 0 14 0 1 
+7 0 14 3 1 
+11 2 14 5 1 
+Military Pick
+A mining tool repurposed as a weapon, the military pick is capable of inflicting horrific wounds, but has a tendency to get stuck.
+0 625 48 30 0 10 0
+0 0 0 
+-1 0 12 2 1 
+8 2 12 6 1 
+-1 0 12 0 1 
+-1 0 8 0 1 
+7 2 8 5 1 
+-1 0 8 0 1 
+-1 0 8 0 1 
+10 2 8 6 1 
+-1 0 8 0 1 
+-1 0 6 0 1 
+10 2 6 6 1 
+-1 0 6 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Morning Star
+A more primitive form of mace, the morning star has spikes protruding in all directions from its head.  Though not quite as good at penetrating armour as flanges, they make a mess of a softly-armoured target.
+0 750 48 42 0 9 3
+0 0 0 
+-1 0 11 0 2 
+5 0 11 5 2 
+-1 0 11 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 7 0 2 
+7 0 7 5 2 
+-1 0 7 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Partisan
+Specifically intended as a weapon of war, the partisan has a heavier, broader blade than a typical hunting spear.
+0 730 80 72 0 10 5
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 2 10 2 2 
+-1 0 10 0 2 
+-1 0 10 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+7 2 8 2 2 
+-1 0 8 0 2 
+-1 0 8 0 2 
+7 2 8 2 1 
+-1 0 8 0 1 
+-1 0 8 0 1 
+Pike
+An enormously long spear, designed to be used in formation against cavalry.  A lone pikeman typically finds himself flanked and, shortly thereafter, dead.
+0 875 96 120 0 10 5
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+5 2 11 3 3 
+-1 0 11 0 3 
+-1 0 11 0 3 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+7 2 9 2 3 
+-1 0 9 0 3 
+-1 0 9 0 3 
+7 2 9 2 2 
+-1 0 9 0 2 
+-1 0 9 0 2 
+Pistol Crossbow
+Able to be wielded in a single hand, but still requiring two hands to cock and load.  Darts for this crossbow cost 1sp each, or twelve for 1gp.
+2 3000 16 12 0 1 0
+5 0 0 
+7 2 7 4 0 
+3 2 6 3 0 
+4 2 7 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Poleaxe
+Inelegant, but then, it's not meant to be fancy.
+0 668 64 66 0 15 4
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 14 0 2 
+6 1 14 3 2 
+-1 0 14 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 11 0 2 
+10 1 11 4 2 
+-1 0 11 0 2 
+-1 0 11 0 1 
+8 1 11 3 1 
+-1 0 11 0 1 
+Quarter-Plate
+A Bisby jack with a few metal cups in strategic locations.
+3 95000 1040 0 3 3 1
+8 1 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Quarterstaff
+A peasant's weapon, but surprisingly effective.  Despite all the Robin Hood movies, the typical attack made with this weapon was a thrust, \fInot\fR a swing.
+0 2000 48 60 1 10 6
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+3 0 6 2 2 
+6 0 6 4 2 
+-1 0 6 4 2 
+3 0 6 2 1 
+5 0 6 4 1 
+-1 0 6 4 1 
+Rapier
+Often derided as the weapons of fops or dilettantes, the rapier has poor damage, but compensates with impressive reach and speed.
+0 5000 32 48 1 10 7
+0 0 0 
+3 2 10 2 2 
+4 1 10 3 2 
+-1 0 10 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Recurve Heavy Crossbow
+By reshaping the bow before it is attached to the stock, the heavy crossbow becomes even more powerful, but requires a stronger person to wield.  It also becomes considerably more expensive.
+2 15000 80 30 0 1 0
+50 4 5 
+11 2 11 4 0 
+6 2 10 3 0 
+7 2 12 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Ring Armour
+By sewing many metal rings into the lining, one can give soft leather armour considerably better protection.
+3 4450 400 0 1 6 0
+3 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Rondel
+A fairly long dagger, wickedly sharp, but lacking the mass and length for proper penetration.
+0 293 16 18 0 8 1
+0 0 0 
+2 2 6 1 1 
+-1 0 6 0 1 
+-1 0 6 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Sabre
+Another fencing weapon, though this one is more frequently used to slice, rather than stab.
+0 5000 32 36 1 10 7
+0 0 0 
+3 2 10 2 1 
+4 1 10 3 1 
+-1 0 10 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Scale Armour
+Overlapping thin steel plates arranged over a leather jack.  Very affordable protection, but also very bulky.
+3 32000 1040 0 5 1 2
+8 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Scutum
+This large Roman shield was held at arm's length by the centerboss, which made it cumbersome, but very effective.
+4 18000 384 6 6 0 1
+0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Short Bow
+A four-foot wooden hunting weapon.
+1 5000 56 48 0 0 0
+3 5 15 
+6 2 8 3 0 
+7 2 11 3 0 
+8 2 14 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Shortsword
+A small, light blade, not much heavier than most daggers, and rather tip-heavy.
+0 2000 24 24 1 7 7
+0 0 0 
+2 2 6 2 1 
+4 1 6 3 1 
+-1 0 6 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+3 2 4 2 1 
+5 1 4 3 1 
+-1 0 4 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Sickle
+Another farmer's tool turned into a weapon.  Its unwieldy nature is the reason it is lumped in with axes.
+0 668 32 24 0 10 0
+0 0 0 
+-1 0 10 0 1 
+5 1 10 3 1 
+-1 0 10 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Single Stick
+ A plain wooden rod, used in the same manner as a sword.  The single stick was frequently used to train young nobles in swordsmanship.  As an actual weapon, it leaves a bit to be desired.
+0 1500 32 36 1 10 6
+0 0 0 
+2 0 10 2 1 
+4 0 10 3 1 
+-1 0 10 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+2 0 7 2 1 
+5 0 7 3 1 
+-1 0 7 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Sledgehammer
+A simple weapon, for the simple-minded.
+0 1500 96 48 0 11 3
+0 0 0 
+-1 0 19 0 2 
+7 0 19 6 2 
+-1 0 19 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 13 0 2 
+9 0 13 6 2 
+-1 0 13 0 2 
+-1 0 10 0 1 
+9 0 10 6 1 
+-1 0 10 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Small Bow
+Intended for shorter characters, this two-foot wooden bow is recurved for more power.  Its arrows are sufficiently small and light that they cost only 1sp each, or 1gp for a dozen.
+1 3000 16 24 0 1 0
+2 4 5 
+5 2 7 3 0 
+6 2 10 3 0 
+7 2 12 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Small Round Shield
+A foot and a half in diameter, this shield is rather heavy, but provides decent cover for its price.
+4 3000 64 2 2 0 1
+0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Smallsword
+A smaller fencing sword, this weapon lacks the reach and damage of the rapier, though it is quite a bit quicker.  It is typically seen as a court dress sword, not as a serious weapon.
+0 5000 16 36 1 12 7
+0 0 0 
+2 2 9 1 1 
+3 1 9 1 1 
+-1 0 9 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+2 2 6 1 1 
+3 1 6 1 1 
+-1 0 6 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Soft Leather
+Flexible armour that won't stop much in the way of damage, but it's light and cheap.
+3 500 160 0 0 8 0
+1 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Spear
+A hunting weapon, pressed into service as a weapon of war.
+0 438 48 60 0 10 5
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+3 2 8 2 2 
+-1 0 8 0 2 
+-1 0 8 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+5 2 6 2 2 
+-1 0 6 0 2 
+-1 0 6 0 2 
+5 2 6 2 1 
+-1 0 6 0 1 
+-1 0 6 0 1 
+Spetum
+A crescent-shaped blade, mounted centered on a pole, with a long spear-head protruding from it.  Though primarily meant for thrusting, the spetum can be used to slash as well, as there is no part of the weapon's head that isn't sharp.
+0 2000 96 72 1 13 4
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+5 2 15 2 2 
+8 1 15 5 2 
+-1 0 15 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+7 2 11 2 2 
+13 1 11 6 2 
+-1 0 11 0 2 
+7 2 11 2 1 
+10 1 11 5 1 
+-1 0 11 0 1 
+Studded Leather
+A soft leather jack with several plates, typically of bronze or iron.  Steel is too expensive for this armour.  It provides decent protection for its price.
+3 8000 560 0 2 5 0
+4 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Throwing Axe
+Designed specifically for hurling, the throwing axe can also be used in melee by small persons, or those who are desperate.
+0 168 16 18 0 8 0
+0 0 0 
+-1 0 6 0 1 
+3 1 6 2 1 
+-1 0 6 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Tower Shield
+Five feet tall and two feet wide, this shield renders its user almost unhittable.
+4 12000 384 5 4 0 0
+0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Trident
+A terrible weapon, but some people just like the way they look.
+0 730 80 60 0 10 5
+0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 2 10 2 2 
+-1 0 10 0 2 
+-1 0 10 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+7 2 8 2 2 
+-1 0 8 0 2 
+-1 0 8 0 2 
+7 2 8 2 1 
+-1 0 8 0 1 
+-1 0 8 0 1 
+Vambrace
+A heavy arm-guard, this shield straps to the user's forearm, but provides only limited protection to the hand.  On the plus side, it leaves the user's hands free for other tasks.
+4 2000 64 1 0 0 0
+0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Wand
+Every wizard requires a wand, to serve as a focus for his magical energies.  In an emergency, a wizard's wand can be pressed into service as a very light club.
+0 2500 16 12 0 3 6
+0 0 0 
+-1 0 3 0 1 
+2 0 3 2 1 
+-1 0 3 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+War Bow
+Adding a recurve to a standard wooden hunting bow substantially improves its reach and damage.  And its price.
+1 10000 56 48 0 1 0
+5 15 30 
+7 2 10 3 0 
+9 2 14 3 0 
+10 2 17 3 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+Warhammer
+With the hammer backed by a large spike, this weapon is essentially a medieval can-opener.
+0 2000 24 24 1 10 3
+0 0 0 
+-1 0 9 0 1 
+3 0 9 2 1 
+4 2 9 3 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 6 0 1 
+4 0 6 2 1 
+6 2 6 3 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Zweih\[:a]nder
+Considerably larger than most would consider practical, this massive sword was typically used only for ceremonial purposes.  Typically, they lack a thrusting tip.
+0 12000 112 60 1 10 7
+0 0 0 
+3 0 18 3 2 
+9 1 18 6 2 
+-1 0 18 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 0 12 3 2 
+11 1 12 6 2 
+-1 0 12 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+Side-Sword
+Designed to blend the elements of the rapier and the arming sword, the side-sword became the principal military sword of the Renaissance.
+0 12000 40 42 1 10 7
+0 0 0 
+3 2 11 2 2 
+4 1 11 3 2 
+-1 0 11 0 2 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 
+4 2 8 2 2 
+6 1 8 2 2 
+-1 0 8 0 2 
+5 2 6 2 1 
+6 1 6 2 1 
+-1 0 6 0 1 
+-1 0 0 0 0 
+-1 0 0 0 0 
+-1 0 0 0 0 

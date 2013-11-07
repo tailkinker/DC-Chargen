@@ -1,0 +1,57 @@
+object frmStart: TfrmStart
+  Left = 1037
+  Height = 46
+  Top = 0
+  Width = 548
+  BorderStyle = bsDialog
+  Caption = 'Character Builder'
+  ClientHeight = 46
+  ClientWidth = 548
+  OnCreate = FormCreate
+  LCLVersion = '1.0.8.0'
+  object btnNewChar: TButton
+    Left = 8
+    Height = 30
+    Top = 8
+    Width = 100
+    Caption = 'Character'
+    OnClick = btnNewCharClick
+    TabOrder = 0
+  end
+  object btnNewMinion: TButton
+    Left = 116
+    Height = 30
+    Top = 8
+    Width = 100
+    Caption = 'Minion'
+    OnClick = btnNewCharClick
+    TabOrder = 1
+  end
+  object btnNewStandard: TButton
+    Left = 224
+    Height = 30
+    Top = 8
+    Width = 100
+    Caption = 'Monster'
+    OnClick = btnNewCharClick
+    TabOrder = 2
+  end
+  object btnNewExcept: TButton
+    Left = 332
+    Height = 30
+    Top = 8
+    Width = 100
+    Caption = 'Exceptional'
+    OnClick = btnNewCharClick
+    TabOrder = 3
+  end
+  object btnNewElite: TButton
+    Left = 440
+    Height = 30
+    Top = 8
+    Width = 100
+    Caption = 'Elite'
+    OnClick = btnNewCharClick
+    TabOrder = 4
+  end
+end

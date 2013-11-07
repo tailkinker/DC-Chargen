@@ -1,0 +1,6 @@
+Acid Mastery
+,,,,,,FALSE
+Alert
+,,,,,,FALSE
+Ambidexterity
+,,,,,,TRUE
