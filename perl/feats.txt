@@ -69,7 +69,7 @@ Iron Skin
 Iron Will
 ,,,5,13,
 Language Training
-,,,4,11,
+,,,4,11,,1
 Large And In Charge
 ,,,1,13,
 Lay Priest
