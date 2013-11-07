@@ -68,8 +68,20 @@ Iron Skin
 ,16,,,,
 Iron Will
 ,,,5,13,
-Language Training
-,,,4,11,,1
+Language Training 1
+,,,4,11,
+Language Training 2
+,,,4,13,
+Language Training 3
+,,,4,15,
+Language Training 4
+,,,4,17,
+Language Training 5
+,,,4,19,
+Language Training 6
+,,,4,21,
+Language Training 7
+,,,4,23,
 Large And In Charge
 ,,,1,13,
 Lay Priest

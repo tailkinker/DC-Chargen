@@ -77,6 +77,7 @@ type
     procedure cmbSkillSelectChange (Sender : TObject );
     procedure FormClose (Sender : TObject; var CloseAction : TCloseAction );
     procedure FormCreate (Sender : TObject );
+    procedure pcMainChange(Sender: TObject);
     procedure SetCharType (aCharType : byte);
   private
     { private declarations }
@@ -96,6 +97,7 @@ type
     procedure UpdateAttributes;
     procedure PopulateSkillList;
     procedure PopulateWeaponsList;
+    procedure PopulateFeatsList;
   public
     property CharacterType : byte read t_CharType write SetCharType;
     { public declarations }
@@ -111,7 +113,7 @@ const
 implementation
 
 uses
-  dweapons;
+  dweapons, lfeats;
 
 {$R *.lfm}
 
@@ -429,6 +431,11 @@ begin
 
 end;
 
+procedure TfrmCharacter.pcMainChange(Sender: TObject);
+begin
+  PopulateFeatsList;
+end;
+
 procedure TfrmCharacter.UpdateAttributes;
 var
   index : integer;
@@ -579,6 +586,36 @@ begin
   for index := 0 to WeaponCount do
     if (Character.Weapons [index] > 0) then
       lstWeaponsTrained.Items.Add (WeaponData [index].Name);
+end;
+
+procedure TfrmCharacter.PopulateFeatsList;
+var
+  search,
+  index : integer;
+  s : string;
+  Include : boolean;
+begin
+  lstFeatsAvailable.Items.Clear;
+  for index := 0 to FeatCount do begin
+    s := aFeats [index].FeatName;
+    Include := TRUE;
+    // Is character of the correct Level?
+    if (aFeats [index].LevelNeed = 1) then
+       if (Character.Level <> 1) then
+         Include := FALSE;
+    if (aFeats [index].LevelNeed > Character.Level) then
+      Include := FALSE;
+    // Does it require a certain Skill?
+    search := 0;
+    while ((SkillNames [search] <> aFeats [index].SkillNeed) and (search < 19)) do
+      inc (search);
+    if (search < 19) then
+      if (Character.Skills [search, 1] = 0) then
+        Include := FALSE;
+
+    if (Include) then
+      lstFeatsAvailable.Items.Add (s);
+  end;
 end;
 
 end.

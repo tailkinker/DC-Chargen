@@ -33,7 +33,7 @@ type
       property CharacterType : byte read t_CharType write SetCharType;
       property CharRace : integer read t_Race;
       property CharClass : integer read t_Class;
-			property Level : integer read GetLevel write SetLevel;
+      property Level : integer read GetLevel write SetLevel;
       property AttrBumps : integer read t_Bumps;
       property SurgeValue : integer read GetSurgeValue;
       property HitPoints : integer read GetHitPoints;
@@ -53,7 +53,7 @@ const
   ClassNames : array [0..8] of string = (
     'Brute',
     'Cleric',
-  	'Defender',
+    'Defender',
     'Monk',
     'Ranger',
     'Rogue',
@@ -66,7 +66,7 @@ const
   // STR DEX CON INT WIS CHA  D  F  R  W  Sg Ma  Wp Sk
   	( 13, 11, 12,  8, 10,  9, 0, 2, 0, 0, 10, 6, 1, 1 ), // Brute
   	(  8, 11, 10,  9, 13, 12, 0, 2, 0, 2,  5, 4, 1, 1 ), // Cleric
-		( 12, 10, 13,  8, 11,  9, 0, 2, 0, 0,  7, 6, 1, 2 ), // Defender
+	( 12, 10, 13,  8, 11,  9, 0, 2, 0, 0,  7, 6, 1, 2 ), // Defender
   	( 10, 13, 11,  8, 12,  9, 0, 2, 2, 2,  4, 2, 0, 3 ), // Monk
   	( 12, 13,  9, 10, 11,  8, 1, 2, 2, 0,  5, 6, 1, 2 ), // Ranger
   	(  9, 13, 10, 12,  8, 11, 2, 0, 2, 0,  3, 6, 1, 3 ), // Rogue

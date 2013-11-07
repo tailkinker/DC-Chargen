@@ -9,7 +9,20 @@ while (<INF>) {
 close INF;
 $count--;
 
-print "  aFeats : array [0..$count] of FeatRec = (\n";
+print "unit lfeats;\n\n";
+print "{\$mode objfpc}{\$H+}\n\n";
+print "interface\n\n";
+print "uses\n  Classes, SysUtils;\n\n";
+print "type\n  FeatRec = record\n";
+print "  FeatName : string;\n";
+print "  ClassNeed : string;\n";
+print "  LevelNeed : byte;\n";
+print "  SkillNeed : string;\n";
+print "  AttrNeed : array [0..1] of byte;\n";
+print "  FeatNeed : string;\n";
+print "end;\n\n";
+print "const\n  FeatCount = $count;\n";
+print "  aFeats : array [0..FeatCount] of FeatRec = (\n";
 
 open INF, "feats.txt";
 while (<INF>) {
@@ -31,8 +44,7 @@ while (<INF>) {
   print "      LevelNeed: $req[1];\n";
   print "      SkillNeed: '$req[2]';\n";
   print "      AttrNeed: ($req[3], $req[4]);\n";  
-  print "      FeatNeed: '$req[5]';\n";
-  print "      Improves: $req[6]\n";
+  print "      FeatNeed: '$req[5]'\n";
   if (eof(INF)) {
     print "    )\n";
   } else {
@@ -41,4 +53,5 @@ while (<INF>) {
 }
 
 close (INF);
-print "  );\n";
+print "  );\n\nimplementation\n\nend.\n";
+
