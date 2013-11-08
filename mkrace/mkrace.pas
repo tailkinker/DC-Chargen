@@ -146,6 +146,8 @@ begin
 				race.Attributes [index] := 0;
 			for index := 0 to 18 do
 				race.Skills [index] := 0;
+			for index := 0 to 7 do
+				race.Traits [index] := FALSE;
 			race.Weapons [0] := '';
 			race.Weapons [1] := '';
 			race.Feats [0] := '';
@@ -214,7 +216,6 @@ begin
 					end else
 						writeln ('  Failed to parse size...');
 						
-				// Is it a trait?
 				if (upcase(copy (s, 1, 6)) = 'TRAIT:') then begin					
 					t := upcase (copy (s, 7, length (s) - 6));
 					trim (t);

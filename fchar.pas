@@ -265,6 +265,7 @@ begin
   end;
 	txtRaceDescription.Lines.Clear;
   txtRaceDescription.Lines.Add (Character.pRace.Description);
+  Character.SetClass (cmbClass.Items [cmbClass.ItemIndex]);
   UpdateAttributes;
 end;
 
@@ -281,8 +282,8 @@ var
 begin
   Left := (Screen.Width div 2) - (Width div 2);
   Top := (Screen.Height div 2) - (Height div 2);
+  Character := tCharacter.Create;
   pcMain.ActivePage := tabAttributes;
-  Character := tCharacter.Init;
 
   for index := 0 to 5 do begin
     // Class Attribute Boxes
@@ -474,7 +475,6 @@ begin
     if (Character.Attributes [index, 4] >= 0) then
     	s := '+' + s;
     txtAttrBonus [index].Text := s;
-
   end;
 
   // Hit Points and Mana
@@ -592,26 +592,53 @@ procedure TfrmCharacter.PopulateFeatsList;
 var
   search,
   index : integer;
-  s : string;
+  s,
+  t : string;
+  match,
   Include : boolean;
 begin
   lstFeatsAvailable.Items.Clear;
   for index := 0 to FeatCount do begin
     s := aFeats [index].FeatName;
     Include := TRUE;
+
     // Is character of the correct Level?
     if (aFeats [index].LevelNeed = 1) then
        if (Character.Level <> 1) then
          Include := FALSE;
     if (aFeats [index].LevelNeed > Character.Level) then
       Include := FALSE;
+
     // Does it require a certain Skill?
     search := 0;
-    while ((SkillNames [search] <> aFeats [index].SkillNeed) and (search < 19)) do
-      inc (search);
-    if (search < 19) then
+    match := FALSE;
+    repeat
+      if (SkillNames [search] = aFeats [index].SkillNeed) then
+        match := true
+      else
+        search += 1;
+    until (match OR (search = 19));
+
+    if (match) then
       if (Character.Skills [search, 1] = 0) then
         Include := FALSE;
+
+    // Does it require a certain Feat?
+    t := aFeats [index].FeatNeed;
+    if (t <> '') then begin
+      match := FALSE;
+      for search := 0 to 19 do
+        if (Character.FeatList [search] = t) then
+          match := TRUE;
+      Include := match;
+    end;
+
+    // Does it require a certain Attribute?
+    if (aFeats [index].AttrNeed [0] > 0) then begin
+      search := aFeats [index].AttrNeed [0] - 1;
+      if (Character.Attributes [search, 3] < aFeats [index].AttrNeed [1]) then
+        Include := FALSE;
+    end;
 
     if (Include) then
       lstFeatsAvailable.Items.Add (s);

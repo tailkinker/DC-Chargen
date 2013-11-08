@@ -8,7 +8,7 @@
         <Filename Value="chargen.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="chargen"/>
-        <UsageCount Value="118"/>
+        <UsageCount Value="120"/>
       </Unit0>
       <Unit1>
         <Filename Value="fstart.pas"/>
@@ -21,7 +21,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="6"/>
         <CursorPos X="1" Y="20"/>
-        <UsageCount Value="118"/>
+        <UsageCount Value="120"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -31,11 +31,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="fchar"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="588"/>
-        <CursorPos X="1" Y="606"/>
-        <UsageCount Value="118"/>
+        <TopLine Value="241"/>
+        <CursorPos X="1" Y="241"/>
+        <UsageCount Value="120"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -43,12 +44,14 @@
         <Filename Value="dchar.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="dchar"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="13"/>
-        <CursorPos X="1" Y="266"/>
-        <UsageCount Value="118"/>
+        <TopLine Value="205"/>
+        <CursorPos X="1" Y="209"/>
+        <UsageCount Value="120"/>
+        <Bookmarks Count="1">
+          <Item0 X="1" Y="212" ID="0"/>
+        </Bookmarks>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -59,7 +62,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="10"/>
         <CursorPos X="17" Y="21"/>
-        <UsageCount Value="118"/>
+        <UsageCount Value="120"/>
         <Loaded Value="True"/>
       </Unit4>
       <Unit5>
@@ -68,9 +71,9 @@
         <UnitName Value="lraces"/>
         <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="53"/>
+        <TopLine Value="72"/>
         <CursorPos X="204" Y="72"/>
-        <UsageCount Value="118"/>
+        <UsageCount Value="120"/>
         <Loaded Value="True"/>
       </Unit5>
       <Unit6>
@@ -81,7 +84,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="53"/>
-        <UsageCount Value="117"/>
+        <UsageCount Value="119"/>
         <Loaded Value="True"/>
       </Unit6>
       <Unit7>
@@ -92,7 +95,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="19" Y="17"/>
-        <UsageCount Value="67"/>
+        <UsageCount Value="69"/>
         <Loaded Value="True"/>
       </Unit7>
       <Unit8>
@@ -116,136 +119,132 @@
     </General>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="390" Column="19" TopLine="350"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="211" Column="1" TopLine="206"/>
       </Position1>
       <Position2>
-        <Filename Value="lfeats.pas"/>
-        <Caret Line="15" Column="23" TopLine="1"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="217" Column="1" TopLine="206"/>
       </Position2>
       <Position3>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="390" Column="24" TopLine="370"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="214" Column="1" TopLine="206"/>
       </Position3>
       <Position4>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="399" Column="21" TopLine="392"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="211" Column="1" TopLine="206"/>
       </Position4>
       <Position5>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="99" Column="5" TopLine="86"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="217" Column="1" TopLine="206"/>
       </Position5>
       <Position6>
-        <Filename Value="lfeats.pas"/>
-        <Caret Line="521" Column="32" TopLine="500"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="214" Column="1" TopLine="206"/>
       </Position6>
       <Position7>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="612" Column="35" TopLine="592"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="211" Column="1" TopLine="206"/>
       </Position7>
       <Position8>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="588" Column="10" TopLine="578"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="217" Column="1" TopLine="206"/>
       </Position8>
       <Position9>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="115" Column="19" TopLine="114"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="214" Column="1" TopLine="206"/>
       </Position9>
       <Position10>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="400" Column="1" TopLine="392"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="211" Column="1" TopLine="206"/>
       </Position10>
       <Position11>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="612" Column="1" TopLine="591"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="217" Column="1" TopLine="206"/>
       </Position11>
       <Position12>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="437" Column="21" TopLine="590"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="214" Column="1" TopLine="206"/>
       </Position12>
       <Position13>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="599" Column="1" TopLine="590"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="211" Column="1" TopLine="206"/>
       </Position13>
       <Position14>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="600" Column="1" TopLine="590"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="217" Column="1" TopLine="206"/>
       </Position14>
       <Position15>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="601" Column="1" TopLine="590"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="214" Column="1" TopLine="206"/>
       </Position15>
       <Position16>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="602" Column="1" TopLine="590"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="211" Column="1" TopLine="206"/>
       </Position16>
       <Position17>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="604" Column="1" TopLine="590"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="217" Column="1" TopLine="206"/>
       </Position17>
       <Position18>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="607" Column="1" TopLine="590"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="214" Column="1" TopLine="206"/>
       </Position18>
       <Position19>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="615" Column="1" TopLine="598"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="211" Column="1" TopLine="206"/>
       </Position19>
       <Position20>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="594" Column="38" TopLine="586"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="217" Column="1" TopLine="206"/>
       </Position20>
       <Position21>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="214" Column="1" TopLine="206"/>
       </Position21>
       <Position22>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="100" Column="32" TopLine="84"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="211" Column="1" TopLine="206"/>
       </Position22>
       <Position23>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="401" Column="1" TopLine="384"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="217" Column="1" TopLine="206"/>
       </Position23>
       <Position24>
         <Filename Value="dchar.pas"/>
-        <Caret Line="266" Column="1" TopLine="254"/>
+        <Caret Line="214" Column="1" TopLine="206"/>
       </Position24>
       <Position25>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="598" Column="1" TopLine="587"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="215" Column="1" TopLine="206"/>
       </Position25>
       <Position26>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="599" Column="1" TopLine="587"/>
+        <Filename Value="dchar.pas"/>
+        <Caret Line="216" Column="1" TopLine="206"/>
       </Position26>
       <Position27>
-        <Filename Value="fchar.pas"/>
-        <Caret Line="600" Column="1" TopLine="587"/>
+        <Filename Value="lraces.pas"/>
+        <Caret Line="72" Column="204" TopLine="72"/>
       </Position27>
       <Position28>
         <Filename Value="fchar.pas"/>
-        <Caret Line="601" Column="1" TopLine="587"/>
+        <Caret Line="155" Column="3" TopLine="153"/>
       </Position28>
       <Position29>
         <Filename Value="fchar.pas"/>
-        <Caret Line="603" Column="1" TopLine="587"/>
+        <Caret Line="271" Column="1" TopLine="255"/>
       </Position29>
       <Position30>
         <Filename Value="fchar.pas"/>
-        <Caret Line="606" Column="1" TopLine="588"/>
+        <Caret Line="156" Column="1" TopLine="152"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>
   <Debugging>
-    <BreakPoints Count="1">
+    <Watches Count="1">
       <Item1>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="fchar.pas"/>
-        <Line Value="598"/>
+        <Expression Value="t_skills"/>
       </Item1>
-    </BreakPoints>
+    </Watches>
   </Debugging>
 </CONFIG>
