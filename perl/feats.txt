@@ -1,136 +1,201 @@
 Acid Mastery
 ,,,,,
+Damage:Acid:+T,,,
 Alert
 ,,,,,
+Stat:Perception:+2,,,
 Ambidexterity
 ,1,,,,
+,,,
 Arcane Dabbler
 ,6,,4,9,
+,,,
 Blind Fighting
 ,,,,,,
+,,,
 Cleave
 ,,,1,13,
+,,,
 Cold Mastery
 ,,,,,,
+Damage:Cold:+T,,,
 Combat Caster
 ,6,,5,13,
+,,,
 Demonic Heritage
 ,6,,6,9,
+,,,
 Diehard
 ,,,3,13,
+,,,
 Energy Resistance (Acid)
 ,11,,,,
+,,,
 Energy Resistance (Cold)
 ,11,,,,
+,,,
 Energy Resistance (Fire)
 ,11,,,,
+,,,
 Energy Resistance (Force)
 ,11,,,,
+,,,
 Energy Resistance (Lightning)
 ,11,,,,
+,,,
 Energy Resistance (Necrotic)
 ,11,,,,
+,,,
 Energy Resistance (Psychic)
 ,11,,,,
+,,,
 Energy Resistance (Radiant)
 ,11,,,,
+,,,
 Expert Healer
 Cleric,,,5,13,
 Fast Dodge
 ,,,2,11,
 Fire Mastery
 ,,,,,
+Damage:Fire:+T,,,
 Great Cleave
 ,,,3,15,Improved Cleave
+,,,
 Greater Energy Resistance (Acid)
 ,21,,,,Energy Resistance (Acid)
+,,,
 Greater Energy Resistance (Cold)
-,21,,,,Energy Resistance (Cold) 
+,21,,,,Energy Resistance (Cold)
+,,,
 Greater Energy Resistance (Fire)
 ,21,,,,Energy Resistance (Fire)
+,,,
 Greater Energy Resistance (Force)
 ,21,,,,Energy Resistance (Force)
+,,,
 Greater Energy Resistance (Lightning)
 ,21,,,,Energy Resistance (Lightning)
+,,,
 Greater Energy Resistance (Necrotic)
 ,21,,,,Energy Resistance (Necrotic)
+,,,
 Greater Energy Resistance (Psychic)
 ,21,,,,Energy Resistance (Psychic)
+,,,
 Greater Energy Resistance (Radiant)
 ,21,,,,Energy Resistance (Radiant)
+,,,
 Improved Cleave
 ,,,3,13,Cleave
+,,,
 Improved Critical
 ,16,,,,
+,,,
 Improved Initiative
 ,,,,,
+Stat:Initiative:+4,,,
 Iron Skin
 ,16,,,,
+,,,
 Iron Will
 ,,,5,13,
+Stat:Will:+2,,,
 Language Training 1
 ,,,4,11,
+,,,
 Language Training 2
 ,,,4,13,
+,,,
 Language Training 3
 ,,,4,15,
+,,,
 Language Training 4
 ,,,4,17,
+,,,
 Language Training 5
 ,,,4,19,
+,,,
 Language Training 6
 ,,,4,21,
+,,,
 Language Training 7
 ,,,4,23,
+,,,
 Large And In Charge
 ,,,1,13,
+,,,
 Lay Priest
 ,6,,5,13,
+,,,
 Lightning Mastery
 ,,,,,
+Damage:Lightning:+T,,,
 Lightning Reflexes
 ,,,2,13,
+Stat:Reflexes:+2
 Lunge
 ,,,,,
+,,,
 Mobility
 ,,,2,13,Fast Dodge
+,,,
 Mounted Combat
 ,,Nature,,,
+,,,
 Necrotic Mastery
 ,,,,,
+Damage:Necrotic:+T,,,
 Psychic Mastery
 ,,,,,
+Damage:Psychic:+T,,,
 Quick Draw
 ,6,,,,
+,,,
 Radiant Mastery
 ,,,,,
+Damage:Radiant:+T,,,
 Rapid Reload
 ,,,,,
+,,,
 Ritual Caster
 ,,,,,
+,,,
 Shot On The Run
 ,6,,2,15,Mobility
+,,,
 Spell Mastery
 ,,,,,
+,,,
 Spring Attack
 ,6,,2,15,Mobility
+,,,
 Swift
 ,,,2,11,
+Stat:Move:+1,,,
 Tough As Nails
 ,,,3,13,
 Toughness
 ,,,3,11,
+Stat:Surge:+1,,,
 Two-Weapon Defense
 ,,,2,13,
+,,,
 Two-Weapon Fighting
 ,,,2,15,
+,,,
 Weapon Finesse (Dexterity)
 ,,,2,13,
+,,,
 Weapon Finesse (Constitution)
 ,,,3,13,
+,,,
 Weapon Finesse (Intelligence)
 ,,,4,13,
+,,,
 Weapon Finesse (Wisdom)
 ,,,5,13,
+,,,
 Weapon Finesse (Charisma)
 ,,,6,13,
+,,,
