@@ -319,6 +319,7 @@ procedure tCharacter.AcquireFeat (aFeat : string);
 var
   index,
   search : integer;
+  t : string;
 begin
 	index := 0;
   search :=-1;
@@ -333,6 +334,19 @@ begin
   while (FeatsHave [index] <> '') do
     index += 1;
   FeatsHave [index] := aFeat;
+
+  // Sort Feats
+  search := 1;
+  while (search <= index) do begin
+    if (FeatsHave [search] < FeatsHave [search - 1]) then begin
+       t := FeatsHave [search];
+       FeatsHave [search] := FeatsHave [search - 1];
+       FeatsHave [search - 1] := t;
+       if (search > 1) then
+         search -= 1;
+    end else
+      search += 1;
+  end;
 
   // Adjust Feats available
   t_Feats -= 1;

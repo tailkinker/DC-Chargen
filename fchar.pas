@@ -15,9 +15,11 @@ type
 
   TfrmCharacter = class (TForm )
     btnAcquireFeat : TButton;
+    btnExportText: TButton;
     btnLevelUp : TButton;
     btnTrainWeapon : TButton;
     btnTrainSkill : TButton;
+    btnExportGroff: TButton;
     cmbClass : TComboBox;
     cmbPreferredWeapon : TComboBox;
     cmbRace : TComboBox;
@@ -53,10 +55,12 @@ type
     lstFeatsTaken : TListBox;
     lstWeaponSkills : TListBox;
     lstWeaponsTrained : TListBox;
+    txtExport: TMemo;
     pcMain : TPageControl;
     tabAttributes : TTabSheet;
     tabFeats : TTabSheet;
     tabEquipment : TTabSheet;
+    tabExport: TTabSheet;
     tabWeapons : TTabSheet;
     tabSkills : TTabSheet;
     txtCharacterLevel : TLabeledEdit;
@@ -446,12 +450,19 @@ begin
   txtFeatsRemaining.Left := tabFeats.Width - (txtFeatsRemaining.Width + 8);
   Label24.Left := txtFeatsRemaining.Left - (Label24.Width + 8);
 
+  // Export Page
+  txtExport.Width := tabExport.Width - 16;
+  txtExport.Height := tabExport.Height - 54;
+  btnExportGroff.Top := tabExport.Height - 38;
+  btnExportText.Top := tabExport.Height - 38
 end;
 
 procedure TfrmCharacter.lstFeatsAvailableClick (Sender : TObject );
 begin
   if (lstFeatsAvailable.Items [lstFeatsAvailable.ItemIndex] <> '') then
     btnAcquireFeat.Enabled := TRUE;
+  if (Character.Feats = 0) then
+    btnAcquireFeat.Enabled := FALSE;
 end;
 
 procedure TfrmCharacter.pcMainChange(Sender: TObject);

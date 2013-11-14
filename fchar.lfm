@@ -12,7 +12,7 @@ object frmCharacter: TfrmCharacter
   Constraints.MinWidth = 840
   OnClose = FormClose
   OnCreate = FormCreate
-  LCLVersion = '1.0.10.0'
+  LCLVersion = '1.0.12.0'
   object txtCharacterName: TLabeledEdit
     Left = 64
     Height = 27
@@ -23,10 +23,10 @@ object frmCharacter: TfrmCharacter
     EditLabel.AnchorSideRight.Control = txtCharacterName
     EditLabel.AnchorSideBottom.Control = txtCharacterName
     EditLabel.AnchorSideBottom.Side = asrBottom
-    EditLabel.Left = 7
-    EditLabel.Height = 20
-    EditLabel.Top = 11
-    EditLabel.Width = 54
+    EditLabel.Left = 16
+    EditLabel.Height = 18
+    EditLabel.Top = 12
+    EditLabel.Width = 45
     EditLabel.Caption = 'Name:'
     EditLabel.ParentColor = False
     LabelPosition = lpLeft
@@ -43,10 +43,10 @@ object frmCharacter: TfrmCharacter
     EditLabel.AnchorSideRight.Control = txtCharacterLevel
     EditLabel.AnchorSideBottom.Control = txtCharacterLevel
     EditLabel.AnchorSideBottom.Side = asrBottom
-    EditLabel.Left = 698
-    EditLabel.Height = 20
-    EditLabel.Top = 11
-    EditLabel.Width = 51
+    EditLabel.Left = 709
+    EditLabel.Height = 18
+    EditLabel.Top = 12
+    EditLabel.Width = 40
     EditLabel.Caption = 'Level:'
     EditLabel.ParentColor = False
     LabelPosition = lpLeft
@@ -59,15 +59,15 @@ object frmCharacter: TfrmCharacter
     Height = 504
     Top = 40
     Width = 824
-    ActivePage = tabFeats
-    TabIndex = 3
+    ActivePage = tabExport
+    TabIndex = 5
     TabOrder = 2
     TabPosition = tpLeft
     OnChange = pcMainChange
     object tabAttributes: TTabSheet
       Caption = 'Attributes'
       ClientHeight = 500
-      ClientWidth = 666
+      ClientWidth = 698
       object grpAttributes: TGroupBox
         Left = 270
         Height = 233
@@ -292,14 +292,14 @@ object frmCharacter: TfrmCharacter
     object tabSkills: TTabSheet
       Caption = 'Skills'
       ClientHeight = 500
-      ClientWidth = 666
+      ClientWidth = 698
       object grpSkillList: TGroupBox
         Left = 212
         Height = 442
         Top = 15
         Width = 432
         Caption = 'Skills'
-        ClientHeight = 421
+        ClientHeight = 423
         ClientWidth = 428
         TabOrder = 0
         object Label15: TLabel
@@ -400,14 +400,14 @@ object frmCharacter: TfrmCharacter
     object tabWeapons: TTabSheet
       Caption = 'Weapon Training'
       ClientHeight = 500
-      ClientWidth = 666
+      ClientWidth = 698
       object lstWeaponSkills: TListBox
         Left = 8
         Height = 392
         Top = 30
         Width = 316
         ItemHeight = 0
-        ScrollWidth = 312
+        ScrollWidth = 314
         TabOrder = 0
         TopIndex = -1
       end
@@ -417,7 +417,7 @@ object frmCharacter: TfrmCharacter
         Top = 30
         Width = 316
         ItemHeight = 0
-        ScrollWidth = 312
+        ScrollWidth = 314
         TabOrder = 1
         TopIndex = -1
       end
@@ -488,20 +488,20 @@ object frmCharacter: TfrmCharacter
     object tabFeats: TTabSheet
       Caption = 'Feats'
       ClientHeight = 500
-      ClientWidth = 666
+      ClientWidth = 698
       object Label22: TLabel
         Left = 8
-        Height = 20
+        Height = 18
         Top = 6
-        Width = 134
+        Width = 107
         Caption = 'Available Feats:'
         ParentColor = False
       end
       object Label23: TLabel
         Left = 327
-        Height = 20
+        Height = 18
         Top = 6
-        Width = 108
+        Width = 84
         Caption = 'Feats Taken:'
         ParentColor = False
       end
@@ -512,7 +512,7 @@ object frmCharacter: TfrmCharacter
         Width = 308
         ItemHeight = 0
         OnClick = lstFeatsAvailableClick
-        ScrollWidth = 304
+        ScrollWidth = 306
         TabOrder = 0
         TopIndex = -1
       end
@@ -522,7 +522,7 @@ object frmCharacter: TfrmCharacter
         Top = 30
         Width = 308
         ItemHeight = 0
-        ScrollWidth = 304
+        ScrollWidth = 306
         TabOrder = 1
         TopIndex = -1
       end
@@ -538,9 +538,9 @@ object frmCharacter: TfrmCharacter
       end
       object Label24: TLabel
         Left = 412
-        Height = 20
+        Height = 18
         Top = 438
-        Width = 148
+        Width = 115
         Caption = 'Feats Remaining:'
         ParentColor = False
       end
@@ -557,6 +557,34 @@ object frmCharacter: TfrmCharacter
     end
     object tabEquipment: TTabSheet
       Caption = 'Equipment'
+    end
+    object tabExport: TTabSheet
+      Caption = 'Export'
+      ClientHeight = 500
+      ClientWidth = 698
+      object txtExport: TMemo
+        Left = 8
+        Height = 90
+        Top = 8
+        Width = 150
+        TabOrder = 0
+      end
+      object btnExportGroff: TButton
+        Left = 8
+        Height = 30
+        Top = 471
+        Width = 160
+        Caption = 'Export as Groff'
+        TabOrder = 1
+      end
+      object btnExportText: TButton
+        Left = 176
+        Height = 30
+        Top = 470
+        Width = 160
+        Caption = 'Export as Text'
+        TabOrder = 2
+      end
     end
   end
   object btnLevelUp: TButton
