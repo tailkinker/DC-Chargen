@@ -29,7 +29,7 @@ type
       Attributes : array [0..5, 0..4] of integer;
       Skills : array [0..18, 0..5] of integer;
       Weapons : array [0..WeaponCount] of byte;
-      FeatList : array [0..19] of string;
+      FeatsHave : array [0..19] of string;
       constructor Create;
       property CharacterType : byte read t_CharType write SetCharType;
       property CharRace : integer read t_Race;
@@ -39,11 +39,12 @@ type
       property SurgeValue : integer read GetSurgeValue;
       property HitPoints : integer read GetHitPoints;
       property SkillPoints : integer read t_Skills write SetSkills;
-
+      property Feats : integer read t_Feats;
       procedure SetRace (aRace : string);
       procedure SetClass (aClass : string);
       procedure TrainSkill (aSkill : string);
       procedure Bump (attrIndex : integer);
+      procedure AcquireFeat (aFeat : string);
       procedure Ding;
   end;
 
@@ -147,7 +148,7 @@ const
 implementation
 
 uses
-  fChar;
+  fChar, lfeats;
 
 constructor tCharacter.Create;
 var
@@ -158,13 +159,20 @@ begin
   for index := 0 to WeaponCount do
     Weapons [index] := 0;
   for index := 0 to 19 do
-    FeatList [index] := '';
+    FeatsHave [index] := '';
 end;
 
 procedure tCharacter.SetCharType (aCharType : byte);
 begin
   if (aCharType in [0..4]) then
      t_CharType := aCharType;
+  case (t_CharType) of
+    fcPlayer: t_Feats := 1;
+    fcMinion: t_Feats := 0;
+    fcStandard: t_Feats := 1;
+    fcExceptional: t_Feats := 2;
+    fcElite: t_Feats := 4;
+  end;
 end;
 
 procedure tCharacter.SetRace (aRace : string);
@@ -177,6 +185,8 @@ begin
       t_Race := index;
 
   pRace := Races [t_Race];
+
+  // Attributes
   if (t_Race > -1) then begin
     for index := 0 to 5 do
       Attributes [index, 1] := pRace.Attributes [index];
@@ -192,6 +202,19 @@ begin
     t_Bumps += 1
   else if (CharacterType = fcElite) then
     t_Bumps += 2;
+
+  // Feats
+  case (t_CharType) of
+    fcPlayer: t_Feats := 1;
+    fcMinion: t_Feats := 0;
+    fcStandard: t_Feats := 1;
+    fcExceptional: t_Feats := 2;
+    fcElite: t_Feats := 4;
+  end;
+  if (pRace.Traits [0] = TRUE) then
+    t_Feats += 1;
+  for index := 0 to 19 do
+    FeatsHave [index] := '';
 end;
 
 procedure tCharacter.SetClass (aClass : string);
@@ -292,6 +315,28 @@ begin
   end;
 end;
 
+procedure tCharacter.AcquireFeat (aFeat : string);
+var
+  index,
+  search : integer;
+begin
+	index := 0;
+  search :=-1;
+  repeat
+    if (FeatList [index].FeatName = aFeat) then
+      search := index;
+    index += 1;
+  until ((index > FeatCount) or (search > -1));
+
+  // Now add it
+  index := 0;
+  while (FeatsHave [index] <> '') do
+    index += 1;
+  FeatsHave [index] := aFeat;
+
+  // Adjust Feats available
+  t_Feats -= 1;
+end;
 
 procedure tCharacter.Ding;
 begin

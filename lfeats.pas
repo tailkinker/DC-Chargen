@@ -9,17 +9,17 @@ uses
 
 type
   FeatRec = record
-  FeatName : string;
-  ClassNeed : string;
-  LevelNeed : byte;
-  SkillNeed : string;
-  AttrNeed : array [0..1] of byte;
-  FeatNeed : string;
-end;
+    FeatName : string;
+    ClassNeed : string;
+    LevelNeed : byte;
+    SkillNeed : string;
+    AttrNeed : array [0..1] of byte;
+    FeatNeed : string;
+  end;
 
 const
-  FeatCount = 67;
-  aFeats : array [0..FeatCount] of FeatRec = (
+  aFeatCount = 67;
+  aFeats : array [0..aFeatCount] of FeatRec = (
     ( FeatName: 'Acid Mastery';
       ClassNeed: '';
       LevelNeed: 0;
@@ -498,6 +498,16 @@ const
     )
   );
 
+var
+  FeatList : array of FeatRec;
+
+function FeatCount : integer;
+
 implementation
+
+function FeatCount : integer;
+begin
+  FeatCount := length (FeatList);
+end;
 
 end.

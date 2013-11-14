@@ -68,6 +68,7 @@ type
     txtSurgeValue : TLabeledEdit;
     txtWeaponsLeftToTrain : TLabeledEdit;
 
+    procedure btnAcquireFeatClick (Sender : TObject );
     procedure btnIncAttrClick (Sender : TObject );
     procedure btnLevelUpClick (Sender : TObject );
     procedure btnTrainSkillClick (Sender : TObject );
@@ -77,6 +78,7 @@ type
     procedure cmbSkillSelectChange (Sender : TObject );
     procedure FormClose (Sender : TObject; var CloseAction : TCloseAction );
     procedure FormCreate (Sender : TObject );
+    procedure lstFeatsAvailableClick (Sender : TObject );
     procedure pcMainChange(Sender: TObject);
     procedure SetCharType (aCharType : byte);
   private
@@ -171,6 +173,13 @@ begin
   	for attrIndex := 0 to 5 do
       btnIncAttr [attrIndex].Enabled := FALSE;
   UpdateAttributes;
+end;
+
+procedure TfrmCharacter.btnAcquireFeatClick (Sender : TObject );
+begin
+  Character.AcquireFeat(lstFeatsAvailable.Items [lstFeatsAvailable.ItemIndex]);
+  btnAcquireFeat.Enabled := FALSE;
+  PopulateFeatsList;
 end;
 
 procedure TfrmCharacter.btnLevelUpClick (Sender : TObject );
@@ -282,6 +291,13 @@ var
 begin
   Left := (Screen.Width div 2) - (Width div 2);
   Top := (Screen.Height div 2) - (Height div 2);
+
+  // Populate list of Feats
+  SetLength (FeatList, aFeatCount + 1);
+  for index := 0 to aFeatCount do
+    FeatList [index] := aFeats [index];
+
+  // Primary Creation
   Character := tCharacter.Create;
   pcMain.ActivePage := tabAttributes;
 
@@ -430,6 +446,12 @@ begin
   txtFeatsRemaining.Left := tabFeats.Width - (txtFeatsRemaining.Width + 8);
   Label24.Left := txtFeatsRemaining.Left - (Label24.Width + 8);
 
+end;
+
+procedure TfrmCharacter.lstFeatsAvailableClick (Sender : TObject );
+begin
+  if (lstFeatsAvailable.Items [lstFeatsAvailable.ItemIndex] <> '') then
+    btnAcquireFeat.Enabled := TRUE;
 end;
 
 procedure TfrmCharacter.pcMainChange(Sender: TObject);
@@ -598,22 +620,27 @@ var
   Include : boolean;
 begin
   lstFeatsAvailable.Items.Clear;
-  for index := 0 to FeatCount do begin
-    s := aFeats [index].FeatName;
+  for index := 0 to (FeatCount - 1) do begin
+    s := FeatList [index].FeatName;
     Include := TRUE;
 
+    // Does the character already have it?
+    for search := 0 to 19 do
+      if (Character.FeatsHave [search] = s) then
+        Include := FALSE;
+
     // Is character of the correct Level?
-    if (aFeats [index].LevelNeed = 1) then
+    if (FeatList [index].LevelNeed = 1) then
        if (Character.Level <> 1) then
          Include := FALSE;
-    if (aFeats [index].LevelNeed > Character.Level) then
+    if (FeatList [index].LevelNeed > Character.Level) then
       Include := FALSE;
 
     // Does it require a certain Skill?
     search := 0;
     match := FALSE;
     repeat
-      if (SkillNames [search] = aFeats [index].SkillNeed) then
+      if (SkillNames [search] = FeatList [index].SkillNeed) then
         match := true
       else
         search += 1;
@@ -624,25 +651,33 @@ begin
         Include := FALSE;
 
     // Does it require a certain Feat?
-    t := aFeats [index].FeatNeed;
+    t := FeatList [index].FeatNeed;
     if (t <> '') then begin
       match := FALSE;
       for search := 0 to 19 do
-        if (Character.FeatList [search] = t) then
+        if (Character.FeatsHave [search] = t) then
           match := TRUE;
       Include := match;
     end;
 
     // Does it require a certain Attribute?
-    if (aFeats [index].AttrNeed [0] > 0) then begin
-      search := aFeats [index].AttrNeed [0] - 1;
-      if (Character.Attributes [search, 3] < aFeats [index].AttrNeed [1]) then
+    if (FeatList [index].AttrNeed [0] > 0) then begin
+      search := FeatList [index].AttrNeed [0] - 1;
+      if (Character.Attributes [search, 3] < FeatList [index].AttrNeed [1]) then
         Include := FALSE;
     end;
 
     if (Include) then
       lstFeatsAvailable.Items.Add (s);
   end;
+  str (Character.Feats, t);
+  txtFeatsRemaining.Text := t;
+
+  // Now add the Feats that the character actually has
+  lstFeatsTaken.Items.Clear;
+  for index := 0 to 19 do
+    if (Character.FeatsHave [index] <> '') then
+      lstFeatsTaken.Items.Add (Character.FeatsHave [index]);
 end;
 
 end.
